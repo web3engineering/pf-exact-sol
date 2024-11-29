@@ -1,0 +1,11 @@
+[package]
+name = "pfbbs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = { version="1.18.15" }
+
+[lib]
+name = "pfbbs"
+crate-type = ["cdylib", "lib"]
